@@ -113,7 +113,7 @@ namespace LostV2
                 case 3:
                     outputLabel.Text = "You got caught by Mr.Cassone. Play again?";
                     redLabel.Text = "Yes";
-                    blueLabel.Text = "No";
+                    blueLabel.Text = "No"; 
                     break;
                 case 4:
                     outputLabel.Text = "Mr. Armstrong is walking on the hallway. \nWill you go say hi to him or ignore and walk by? ";
