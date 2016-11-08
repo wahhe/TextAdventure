@@ -42,6 +42,10 @@ namespace LostV2
                 {
                     scene = 3;
                 }
+                else if (scene == 3)
+                {
+                    scene = 0;
+                }
                 else if (scene == 4)
                 {
                     scene = 5;
@@ -65,6 +69,10 @@ namespace LostV2
                 else if (scene == 1)
                 {
                     scene = 4;
+                }
+                else if (scene == 3)
+                {
+                    //close the program
                 }
                 else if (scene == 4)
                 {
@@ -117,7 +125,7 @@ namespace LostV2
                     break;
                 case 4:
                     outputLabel.Text = "Mr. Armstrong is walking on the hallway. \nWill you go say hi to him or ignore and walk by? ";
-                    redLabel.Text = "Ignore and walk By";
+                    redLabel.Text = "Ignore and walk By"; 
                     blueLabel.Text = "Go say hi to him";
                     break;
                 case 5:
