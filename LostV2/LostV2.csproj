@@ -106,6 +106,12 @@
   <ItemGroup>
     <None Include="Resources\yellow_50x50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donuts Go Nuts!.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OH NO! %28I KNOW..%29  - BRUCE %28FAMILY GUY%29.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

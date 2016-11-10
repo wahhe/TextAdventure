@@ -43,40 +43,43 @@
             // 
             // outputLabel
             // 
+            this.outputLabel.BackColor = System.Drawing.Color.Black;
             this.outputLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel.ForeColor = System.Drawing.Color.White;
+            this.outputLabel.ForeColor = System.Drawing.Color.Chartreuse;
             this.outputLabel.Location = new System.Drawing.Point(24, 28);
             this.outputLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(339, 257);
+            this.outputLabel.Size = new System.Drawing.Size(457, 192);
             this.outputLabel.TabIndex = 2;
             // 
             // redLabel
             // 
+            this.redLabel.BackColor = System.Drawing.Color.Black;
             this.redLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.redLabel.ForeColor = System.Drawing.Color.White;
-            this.redLabel.Location = new System.Drawing.Point(67, 313);
+            this.redLabel.ForeColor = System.Drawing.Color.LightCoral;
+            this.redLabel.Location = new System.Drawing.Point(67, 247);
             this.redLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(257, 23);
+            this.redLabel.Size = new System.Drawing.Size(414, 37);
             this.redLabel.TabIndex = 3;
             this.redLabel.Text = "label1";
             // 
             // blueLabel
             // 
+            this.blueLabel.BackColor = System.Drawing.Color.Black;
             this.blueLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blueLabel.ForeColor = System.Drawing.Color.White;
-            this.blueLabel.Location = new System.Drawing.Point(67, 349);
+            this.blueLabel.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.blueLabel.Location = new System.Drawing.Point(70, 309);
             this.blueLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(257, 23);
+            this.blueLabel.Size = new System.Drawing.Size(411, 43);
             this.blueLabel.TabIndex = 4;
             this.blueLabel.Text = "label1";
             // 
             // blueImage
             // 
             this.blueImage.Image = global::LostV2.Properties.Resources.blue_50x50;
-            this.blueImage.Location = new System.Drawing.Point(24, 339);
+            this.blueImage.Location = new System.Drawing.Point(24, 309);
             this.blueImage.Margin = new System.Windows.Forms.Padding(2);
             this.blueImage.Name = "blueImage";
             this.blueImage.Size = new System.Drawing.Size(39, 32);
@@ -87,7 +90,7 @@
             // redImage
             // 
             this.redImage.Image = global::LostV2.Properties.Resources.red_50x50;
-            this.redImage.Location = new System.Drawing.Point(24, 303);
+            this.redImage.Location = new System.Drawing.Point(24, 247);
             this.redImage.Margin = new System.Windows.Forms.Padding(2);
             this.redImage.Name = "redImage";
             this.redImage.Size = new System.Drawing.Size(39, 32);
@@ -98,7 +101,7 @@
             // yellowImage
             // 
             this.yellowImage.Image = global::LostV2.Properties.Resources.yellow_50x50;
-            this.yellowImage.Location = new System.Drawing.Point(24, 375);
+            this.yellowImage.Location = new System.Drawing.Point(24, 364);
             this.yellowImage.Margin = new System.Windows.Forms.Padding(2);
             this.yellowImage.Name = "yellowImage";
             this.yellowImage.Size = new System.Drawing.Size(39, 32);
@@ -108,21 +111,22 @@
             // 
             // yellowlabel
             // 
+            this.yellowlabel.BackColor = System.Drawing.Color.Black;
             this.yellowlabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yellowlabel.ForeColor = System.Drawing.Color.White;
-            this.yellowlabel.Location = new System.Drawing.Point(67, 384);
+            this.yellowlabel.ForeColor = System.Drawing.Color.Gold;
+            this.yellowlabel.Location = new System.Drawing.Point(67, 364);
             this.yellowlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.yellowlabel.Name = "yellowlabel";
-            this.yellowlabel.Size = new System.Drawing.Size(257, 23);
+            this.yellowlabel.Size = new System.Drawing.Size(414, 49);
             this.yellowlabel.TabIndex = 6;
-            this.yellowlabel.Text = "label1";
             // 
             // Donut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(386, 422);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(503, 422);
             this.Controls.Add(this.yellowlabel);
             this.Controls.Add(this.yellowImage);
             this.Controls.Add(this.blueLabel);
