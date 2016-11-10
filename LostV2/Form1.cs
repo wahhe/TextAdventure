@@ -56,7 +56,19 @@ namespace LostV2
                 }
                 else if (scene == 7)
                 {
-                    scene = 9;
+                    scene = 8;
+                }
+                else if (scene == 8)
+                {
+                    scene = 0;
+                }
+                else if (scene == 9)
+                {
+                    scene = 0;
+                }
+                else if (scene == 10)
+                {
+                    scene = 0;
                 }
 
             }
@@ -72,33 +84,53 @@ namespace LostV2
                 }
                 else if (scene == 3)
                 {
-                    //close the program
+                    this.Close();   //close the program
                 }
                 else if (scene == 4)
                 {
                     scene = 6;
                 }
-                else if (scene == 6)
+                else if (scene == 5)
+                {
+                    this.Close();   //close the program
+                }
+                else if (scene == 6)  //80% chance to success
                 {
                     int chance = randGen.Next(1, 101);
-                    if (chance < 80)
+                    if (chance > 80)
                     {
-                        scene = 8;
+                        scene = 7;
                     }
                     else
                     {
-                        scene = 12;
+                        scene = 11;
                     }
                 }
                 else if (scene == 7)
                 {
-                    scene = 10;
+                    scene = 9;
                 }
-                else if (scene == 7)
+                else if (scene == 8)
                 {
-                    scene = 11;
+                    this.Close();
+                }
+                else if (scene == 9)
+                {
+                    this.Close();
+                }
+                else if (scene == 10)
+                {
+                    this.Close();
                 }
             }
+            else if (e.KeyCode == Keys.N)  //yellow button press
+            {
+                if (scene == 7)
+                {
+                    scene = 10;
+                }
+            }
+            
 
             /// Display text and game options to screen based on the current scene
             switch (scene)
@@ -143,6 +175,21 @@ namespace LostV2
                     redLabel.Text = "Walk Back";
                     blueLabel.Text = "Run Back";
                     yellowlabel.Text = "Go Home eat the donut and drink the coffee";
+                    break;
+                case 8:
+                    outputLabel.Text = "You got kicked out from his class. Play again?";
+                    redLabel.Text = "Yes";
+                    blueLabel.Text = "No";
+                    break;
+                case 9:
+                    outputLabel.Text = "You got back to Mr.Steel's class and gave him the donut. \nHe is so happy and willling to give you a bonus in your final exam. \nPlay again?";
+                    redLabel.Text = "Yes";
+                    blueLabel.Text = "No";
+                    break;
+                case 10:
+                    outputLabel.Text = "You got kicked out from his class. Play again?";
+                    redLabel.Text = "Yes";
+                    blueLabel.Text = "No";
                     break;
                 default:
                     break;
